@@ -6,9 +6,7 @@ public class SqArea {
 
         double l = h * k;
 
-        double s = l * h;
-
-        return s;
+        return l * h;
     }
 
     public static void main(String[] args) {
