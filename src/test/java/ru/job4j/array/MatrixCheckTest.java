@@ -140,6 +140,7 @@ public class MatrixCheckTest {
         boolean result = MatrixCheck.monoHorizontal(input, row);
         Assert.assertFalse(result);
     }
+
     @Test
     public void whenDoesNotHaveMonoVertical() {
         char[][] input = {
